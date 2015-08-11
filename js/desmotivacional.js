@@ -54,22 +54,21 @@ var setOverlay = function() {
     overlay.css("left", img.offset().left + "px");
 
     setText();
-}
+};
 
 var setCanvasStyle = function() {
-    var imgUrl = "https://unsplash.it/" + window.innerWidth + "/" + window.innerHeight + "?random";
-    document.getElementById("canvas").src = imgUrl;
-}
+    document.getElementById("canvas").src = "https://unsplash.it/" + window.innerWidth + "/" + window.innerHeight + "?random";
+};
 
 var setText = function() {
     var element = document.getElementById("text");
     var phrase = phrases[Math.floor(Math.random()*phrases.length)];
     element.innerHTML = phrase;
     element.addEventListener("OnVoiceReady", speak(phrase), false);
-}
+};
 
 var speak = function(text) {
     setTimeout(function() {
         responsiveVoice.speak(text.replace(/<\/br>/g, ""), "Brazilian Portuguese Female");
     }, 1000);
-}
+};
