@@ -19,6 +19,7 @@ var phrases = [
     "Você vai morrer infeliz</br> e sozinho.",
     "Ela pediu um tempo</br> porque queria dar para outro.",
     "A tendência é piorar.",
+    "A vida é curta</br> e mesmo assim você vai continuar trabalhando em projetos</br>bosta.",
     "Seu dia vai ser uma bosta.",
     "Tem peito grande mas é gorda.",
     "Sua mãe deveria ter engolido.",
