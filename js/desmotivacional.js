@@ -43,7 +43,8 @@ var phrases = [
     "Aquela festa parece legal... Ninguém te convidou.",
     "Uma mulher te cantou...era um travesti.",
     "Sua cara metade virou gay!",
-    "Ele ainda se lembra de você. Com raiva!"
+    "Ele ainda se lembra de você. Com raiva!",
+    "Não desanime com a derrota de hoje. Amanhã tem outra."
 ];
 
 var setOverlay = function() {
