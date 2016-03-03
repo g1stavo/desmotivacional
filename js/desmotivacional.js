@@ -34,7 +34,7 @@ var phrases = [
     "Calma, </br> o pior ainda está por vir.",
     "Ninguém acha graça </br>no que você diz.",
     "Vai dar merda.",
-    "Mais um dia que passa </br>e dua insignificância prevalece.",
+    "Mais um dia que passa </br>e tua insignificância prevalece.",
     "Ela gosta do seu melhor amigo.",
     "Nunca diga que sua vida não pode ficar pior",
     "A inteligência artificial não é páreo para a estupidez natural!",
