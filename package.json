@@ -1,0 +1,23 @@
+{
+  "name": "desmotivacional",
+  "version": "1.0.0",
+  "description": "Queria criar uma boa descrição para este projeto... mas estava muito desmotivado para tal.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustavocsalvador/desmotivacional.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gustavocsalvador/desmotivacional/issues"
+  },
+  "homepage": "https://github.com/gustavocsalvador/desmotivacional#readme",
+  "devDependencies": {
+    "express": "^4.16.3"
+  }
+}
