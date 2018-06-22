@@ -9,11 +9,11 @@ app.get('/', function (req, res) {
     res.sendFile(__dirname + '/public/index.html');
 });
 
-function init(){
+init = () => {
     app = app.listen(port);
 };
 
-function stop(){
+stop = () => {
     app.close();
 }
 

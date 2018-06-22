@@ -1,6 +1,6 @@
 "use strict";
 
-var phrases = [
+const phrases = [
     "Gosto de terminar as coisas numa sentada só. <br>(KRIEGER, Iury)",
     "Ain, que grosseria. <br>(CINHA, Lingui)",
     "Reskin não é pastel. <br>(PUTO, Claudinho)",
@@ -23,7 +23,7 @@ var phrases = [
     "E a cagada que eu to fazendo vai pra outra branch. <br> (REIS, Geraldo)",
     "Godoy, seu bosta! <br> (TODA, Fernando)",
     "RGB é luz. <br> (SCOFIELD, Karim)",
-    "Qual problema pode dar em HTTPS?. <br> (LINHA, Estre)",
+    "Qual problema pode dar em HTTPS? <br> (LINHA, Estre)",
     "Eu sou um reprodutor. <br> (ZUNINO, Breno)",
     "Manda ver, qualquer coisa fazemos rollback. <br> (AVILES, Marcel)",
     "Pode deixar, tá bom. É Natal, chega dessa merda. <br> (GOTTARDO, Mariana)",
@@ -42,30 +42,22 @@ var phrases = [
     "Se eu visse algum problema em fumar eu não fumaria. <br> (CIGARREIRA, Gustavo)"
 ];
 
-var setOverlay = function() {
-    var overlay = $("#overlay");
-    var img = $("#canvas");
+let setOverlay = () => {
+    let overlay = $("#overlay");
+    let img = $("#canvas");
     overlay.width(img.css("width"));
     overlay.height(img.css("height"));
     overlay.css("top", img.offset().top + "px");
     overlay.css("left", img.offset().left + "px");
-
     setText();
 };
 
-var setCanvasStyle = function() {
+let setCanvasStyle = () => {
     document.getElementById("canvas").src = "https://unsplash.it/" + window.innerWidth + "/" + window.innerHeight + "?random";
 };
 
-var setText = function() {
-    var element = document.getElementById("text");
-    var phrase = phrases[Math.floor(Math.random()*phrases.length)];
+let setText = () => {
+    let element = document.getElementById("text");
+    let phrase = phrases[Math.floor(Math.random() * phrases.length)];
     element.innerHTML = phrase;
-    element.addEventListener("OnVoiceReady", speak(phrase), false);
-};
-
-var speak = function(text) {
-    setTimeout(function() {
-        responsiveVoice.speak(text.replace(/<\/br>/g, ""), "Brazilian Portuguese Female");
-    }, 1000);
 };

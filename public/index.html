@@ -1,59 +1,19 @@
 <html>
-<head>
-    <title>Desmotivacional</title>
-    <meta charset="UTF-8">
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-61568271-1', 'auto');
-      ga('send', 'pageview');
-    </script>
-    <script src="http://code.responsivevoice.org/responsivevoice.js"></script>
-    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script src="js/desmotivacional.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/desmotivacional.css">
-
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
-</head>
-<body onload="setCanvasStyle();">
-
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.4&appId=384085541705339";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
-<a href="https://github.com/flaviotruzzi/desmotivacional"><img style="position: absolute; top: 0; right: 0; border: 0; z-index: 10;" src="https://camo.githubusercontent.com/652c5b9acfaddf3a9c326fa6bde407b87f7be0f4/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6f72616e67655f6666373630302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png"></a>
-
-<div id="header">
-  <div style="width:85px; height:20px; float:left">
-    <!-- Twitter -->
-    <a href="https://twitter.com/share" class="twitter-share-button" data-text="Frases para começar bem o seu dia" data-hashtags="foda-se">Tweet</a>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-  </div>
-  <div style="float:left; height:20px;">
-      <!-- Facebook -->
-      <div class="fb-like" data-href="http://flaviotruzzi.github.io/desmotivacional/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false" style="border:none; height:20px;"></div>    
-  </div>
-</div>
-
-<div id="overlay" class="overlay"></div>
-<div class="image">
-    <img src="" id="canvas" onload="setOverlay()">
-    <p id="text">
-    </p>
-</div>
-<div id="footer">
-<div style="width:300px;vertical-align:top;font-family: Arial;font-size:9pt;line-height: normal; float:right">
-<a rel="license" href="//responsivevoice.org/"><img title="ResponsiveVoice Text To Speech" src="http://responsivevoice.org/wp-content/uploads/2014/08/120x31.png" style="float:left;padding-right:2px" /></a><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a href="//responsivevoice.org/" target="_blank" title="ResponsiveVoice Text To Speech">ResponsiveVoice</a></span> used under <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" title="Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License">Non-Commercial License</a></div>
-</div>
-</body>
-
+    <head>
+        <title>Desmotivacional</title>
+        <meta charset="UTF-8">
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script type="text/javascript" src="js/desmotivacional.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/desmotivacional.css">
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    </head>
+    <body onload="setCanvasStyle();">
+    <div id="overlay" class="overlay">
+    </div>
+    <div class="image">
+        <img src="" id="canvas" onload="setOverlay()">
+        <p id="text"></p>
+    </div>
+    </body>
 </html>
 
