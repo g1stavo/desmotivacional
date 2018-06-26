@@ -1,6 +1,7 @@
 "use strict";
 
 const phrases = [
+    "Pô Martinha, bom senso né. <br>(TO, Ben)",
     "Gosto de terminar as coisas numa sentada só. <br>(KRIEGER, Iury)",
     "Ain, que grosseria. <br>(CINHA, Lingui)",
     "Reskin não é pastel. <br>(PUTO, Claudinho)",
