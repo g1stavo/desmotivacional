@@ -1,6 +1,7 @@
 "use strict";
 
 const phrases = [
+    "A minha primeira vez foi com 10 caras lá em casa. <br>(CINHA, Lingui)",
     "Pô Martinha, bom senso né. <br>(TO, Ben)",
     "Gosto de terminar as coisas numa sentada só. <br>(KRIEGER, Iury)",
     "Ain, que grosseria. <br>(CINHA, Lingui)",
