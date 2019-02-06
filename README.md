@@ -3,14 +3,14 @@
 
 ATD version of a great motivational tool, [Desmotivacional](http://flaviotruzzi.github.io/desmotivacional).
 
-## Installation
+## Install
 ```shell
 git clone git@github.com:g1stavo/desmotivacional
 cd desmotivacional
 npm i
 ```
 
-## Usage
+## Use
 ```shell
 node server.js start
 ```
